@@ -10,4 +10,13 @@ package core;
  */
 public class Dog {
     
+    private int age;
+    private String gender;
+    private double weight;
+
+    public Dog(int age, String gender, double weight) {
+        this.age = age;
+        this.gender = gender;
+        this.weight = weight;
+    }   
 }
